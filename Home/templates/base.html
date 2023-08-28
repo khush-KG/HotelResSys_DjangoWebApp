@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lotus Delights | Luxury Hotels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+    button,
+    button * {
+      transition: 300ms;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      background: #fff;
+      color: #444;
+    }
+
+    section,
+    div {}
+
+    h1,
+    h3 {
+      font-family: "Playfair Display", serif;
+    }
+
+    nav h1,
+    h2 {
+      font-family: "Lobster", serif;
+    }
+
+    nav a {
+      font-family: "Open Sans", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav
+    class="bg-white text-neutral-800 flex justify-between items-center border-t-8 border-yellow-900 w-screen px-16 py-4 fixed top-0 z-20">
+    <a class="flex text-3xl" href="/">
+      <!-- <img src="/media/hotels/logo.png" alt="" /> -->
+      <h1>Lotus Delights</h1>
+      <img src="/media/hotels/lotus.png" alt="" class="w-8 ml-4">
+    </a>
+    {% if request.user.is_authenticated %}
+    <div class="flex items-center gap-4">
+      <h3 class="text-xl">
+        logged in as <b>{{request.user.username}}</b>
+      </h3>
+      <div id="butt" class="bg-yellow-900/80 hover:bg-yellow-700 text-white px-4 py-2">
+        <a href="/login/">Switch Account</a>
+      </div>
+    </div>
+    {% else %}
+    <button class="bg-yellow-900/80 hover:bg-yellow-700 text-lg px-4 py-1">
+      <a href="/login/" style="color: aliceblue; text-decoration: none">Login</a>
+    </button>
+    {% endif %}
+    <div class="col-lg-6 text-right menu-1 collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="destination.html">Destinations</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Continents</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="continent.html">Europe</a>
+            <a class="dropdown-item" href="continent.html">Asia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="continent.html">America</a>
+            <a class="dropdown-item" href="continent.html">Canada</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  {% block start %} {% endblock %}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+  const paragraphs = document.querySelector('p');
+
+  const lines = paragraphs.textContent.trim().split('\n');
+  paragraphs.textContent = '';
+
+  lines.forEach(line => {
+    const span = document.createElement('span');
+    span.textContent = line;
+    span.style.display = 'block';
+    paragraphs.appendChild(span);
+  });
+
+  const tl = new TimelineMax();
+  const t2 = new TimelineMax();
+
+  lines.forEach((line, index) => {
+    const span = paragraphs.querySelectorAll('span')[index];
+    tl.from(span,
+      {
+        y: 20,
+        opacity: 0,
+        delay: 0.8,
+        duration: 0.5,
+      },
+      index * 0.5);
+  });
+
+  tl.play();
+
+  gsap
+    .from("h1, h2, h3, h4, p",
+      {
+        height: 2,
+        opacity: 0,
+        delay: 1,
+        duration: 1,
+        stagger: 0.2,
+      }
+    );
+
+  t2
+    .from("img, #butt",
+      {
+        opacity: 0,
+        delay: 1,
+        duration: 2,
+      }
+    )
+    .from("button, button *",
+      {
+        width: 0,
+        opacity: 0,
+        stagger: 0.5,
+      },
+      "-=1"
+    )
+</script>
+
+</html>

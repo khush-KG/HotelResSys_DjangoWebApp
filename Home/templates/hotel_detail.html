@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block start %}
+
+<div class="bg-white pt-8">
+    <div class="w-full h-[50vh] overflow-hidden">
+        <img class="-mt-80" src="https://wallpaperaccess.com/full/2690549.jpg">
+    </div>
+    <div class="py-16 px-32">
+        <div class="grid grid-cols-[3fr_1fr] gap-x-12">
+            <div>
+                <h1 class="text-4xl font-semibold my-4">{{hotels_obj.Hotel_Name}}</h1>
+
+                <p class="w-4/5">{{hotels_obj.Hotel_Desc}}</p>
+
+            </div>
+            <div class="flex flex-col justify-center p-4 border-x-2 border-yellow-900/40">
+                <h2 class="text-xl">{{hotels_obj.location}}</h2>
+                <p class="text-3xl mb-2" style="font-family: 'Lobster', serif">
+                    rs. {{hotels_obj.Hotel_Price}}
+                </p>
+                <p><b>Room Count :</b> {{hotels_obj.room_count}}</p>
+                <button class="text-white bg-yellow-900/50 hover:bg-yellow-900 text-lg mt-4 px-4 py-2">
+                    <a href="/login/">Login</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-y-4 my-32">
+            {%for amenities in hotels_obj.amenities.all %}
+            <p class="bg-yellow-700/40 border-x-2 border-yellow-900 text-yellow-900 text-lg p-4">
+                {{amenities.amenity_name}}
+            </p>
+            {% endfor %}
+        </div>
+
+        <div class="grid grid-cols-3">
+            <h1 class="text-4xl m-auto" style="font-family: 'Lobster', serif">Have a look -</h1>
+            <div class="grid grid-cols-2 col-span-2">
+                {% for image in hotels_obj.images.all %}
+                <img src="/media/{{image.images}}" style="height: 300px ; width: 400px; margin: 1vh 1vw ;">
+                {% endfor %}
+            </div>
+        </div>
+        {% if request.user.is_authenticated %}
+        <div class="grid my-32">
+            <h3 class="text-xl font-semibold mb-8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path fill="#333"
+                        d="M1 15c-.275 0-.498-.225-.496-.5 0 0 .007-.746 1.071-1.512 1.138-.818 2.347-.969 3.308-1.498s.954-1.299.925-2.115c-.019-.543-.112-.657-.489-1.392-.556-1.084-.709-2.021-.791-2.823-.127-1.252.011-3.035.86-4.001.847-.964 2.114-1.104 2.114-1.104l.5-.055.498.055s1.266.14 2.113 1.104c.85.966.988 2.75.859 4.001-.08.802-.234 1.739-.791 2.823-.377.734-.476.849-.488 1.392-.029.816-.035 1.586.926 2.115s2.17.68 3.307 1.498c1.064.766 1.072 1.512 1.072 1.512.002.275-.221.5-.496.5h-14.002z" />
+                </svg>
+
+                {{request.user.username}}
+            </h3>
+            <h1 class="text-2xl mb-4">Book Hotel</h1>
+            {%include "messages.html"%}
+            <form method="post">
+                {% csrf_token %}
+                <div class="flex gap-8 w-1/2">
+                    <div class="w-full">
+                        <label for="mintopay">Check in</label>
+                        <p>
+                            <input type="date" name="checkin" id="checkin" class="form-control">
+                        </p>
+                    </div>
+                    <div class="w-full">
+                        <label for="maxtopay">Check out</label>
+                        <p>
+                            <input type="date" name="checkout" id="checkout" class="form-control">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-4 w-1/4">
+                    <input type="submit" class="bg-yellow-900/80 hover:bg-yellow-700 text-lg text-white w-full py-3"
+                        value="Book">
+                </div>
+            </form>
+        </div>
+        {% else %}
+    </div>
+
+
+    {% endif %}
+</div>
+{% endblock %}

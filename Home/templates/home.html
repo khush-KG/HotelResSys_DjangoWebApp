@@ -1,0 +1,150 @@
+{% extends "base.html" %} {% block start %}
+
+<!-- jumbotron and nav -->
+<section role="banner">
+    <!-- <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
+        <div class="navbar-brand">
+            <a href="index.html">Hotel Spoof
+                <em>.</em>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+    </nav> -->
+
+    <div class="grid grid-cols-2 place-content-center h-[80vh] mt-16 px-32">
+        <div class="grid items-center">
+            <section>
+                <h1 class="text-6xl mb-4">Lotus Delights</h1>
+                <p class="text-lg mb-8">
+                    Welcome to Lotus Delights! We're excited to offer you a hassle-free
+                    hotel reservation system for our own luxurious hotels. Book your stay
+                    with ease and enjoy a memorable experience with us. Explore our
+                    collection of premium hotels and make your reservations online today.
+                    We look forward to serving you!
+                </p>
+                <button class="border-yellow-900 hover:bg-yellow-900/20 border-2 px-4 py-2">
+                    <a href="register/">Explore</a>
+                </button>
+            </section>
+        </div>
+        <div>
+            <img src="/media/hotels/undraw hotel.svg" class="w-2/3 mx-auto" alt="" />
+        </div>
+    </div>
+</section>
+
+<section class="bg-yellow-900/10 py-20 px-16 overflow-hidden">
+    <h1 class="text-4xl ml-4 mb-8">Serene Retreats</h1>
+    <div class="grid grid-cols-[1fr_3fr] gap-x-8">
+        <section class="bg-white h-fit px-8 py-12">
+            <div class="mb-8">
+                <h4 class="text-2xl mb-4">Filter</h4>
+                <form>
+                    <div class="grid gap-2 mb-4">
+                        <div class="bg-yellow-900/10 p-2 rounded-lg">
+                            <label for="mintopay">Check in</label>
+                            <p>
+                                <input type="date" name="checkin" id="checkin" class="form-control" />
+                            </p>
+                        </div>
+                        <div class="bg-yellow-900/10 p-2 rounded-lg">
+                            <label for="maxtopay">Check out</label>
+                            <p>
+                                <input type="date" name="checkout" id="checkout" class="form-control" />
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="submit"
+                            class="hover:bg-yellow-900/20 border-2 border-yellow-900 py-1 px-4 rounded-lg"
+                            value="Limit" />
+                    </div>
+                </form>
+            </div>
+
+            <form>
+                <div class="grid gap-4">
+                    <div class="grid gap-2">
+                        <label class="text-2xl mb-2" for="exampleFormControlSelect1">Sort by</label>
+                        <select class="form-control bg-yellow-900/10" name="sort_by" id="exampleFormControlSelect1">
+                            <option value="Recommended">Recommended</option>
+                            {% if sort_by == "ASC" %}
+                            <option selected value="ASC">ASC</option>
+                            {% endif %} {% if sort_by == "DSC" %}
+                            <option selected value="DSC">DSC</option>
+                            {% endif %}
+                        </select>
+                    </div>
+                    <div class="form-inline">
+                        <label class="text-2xl mb-2" for="exampleFormControlSelect1">Search</label>
+                        <input name="search" class="form-control bg-yellow-900/10" value="{{search}}"
+                            placeholder="Search" />
+                    </div>
+                    <div class="form-inline -mb-8">
+                        <label class="text-2xl mb-2" for="exampleFormControlSelect1">Amenities</label>
+                        <h4>Choose</h4>
+                        <select name="amenities" class="form-control bg-yellow-900/10" multiple>
+                            {% for amenities_obj in amenities_objs %}
+                            <option {% if amenities_obj.amenity_name in amenities %} selected {% endif %}
+                                value="{{amenities_obj.amenity_name}}">
+                                <!-- <input type="checkbox" /> -->
+                                {{amenities_obj.amenity_name}}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div>
+                        <button style="margin-top: 30px" type="submit"
+                            class="hover:bg-yellow-900/20 border-2 border-yellow-900 py-1 px-4 rounded-lg">
+                            Find
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            {% for hotels_obj in hotels_objs %}
+            <section class="grid grid-cols-[3fr_4fr_2fr_1fr] gap-4 my-8">
+                <div>
+                    <a href="/hotel-detail/{{hotels_obj.uid}}">
+                        <img class="img-fluid" src="/media/{{hotels_obj.images.first.images}}" alt="Card image cap" />
+                    </a>
+                </div>
+
+                <div>
+                    <h1 class="text-2xl font-semibold my-2">{{hotels_obj.Hotel_Name}}</h1>
+
+                    <p>{{hotels_obj.Hotel_Desc|truncatechars:150}}</p>
+                    <p class="bg-yellow-700/10 text-lg my-4 p-2">
+                        {%for amenities in hotels_obj.amenities.all %}
+                        {{amenities.amenity_name}}, {% endfor %}
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center p-4 border-x-2 border-yellow-900/40">
+                    <h2 class="text-xl">{{hotels_obj.location}}</h2>
+                    <p class="text-3xl mb-2" style="font-family: 'Lobster', serif">
+                        rs. {{hotels_obj.Hotel_Price}}
+                    </p>
+                    <p><b>Room Count :</b> {{hotels_obj.room_count}}</p>
+                    <!-- <p>{{hotels_obj.room_count}}</p> -->
+                </div>
+                <div class="flex items-center">
+                    <a class="h-full" href="/hotel-detail/{{hotels_obj.uid}}">
+                        <button class="bg-yellow-900/50 hover:bg-yellow-900 text-lg text-white px-4 h-full">
+                            View deal
+                        </button>
+                    </a>
+                </div>
+            </section>
+            {% endfor %}
+        </section>
+    </div>
+</section>
+
+{% endblock %}

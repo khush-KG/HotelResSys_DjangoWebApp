@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block start %}
+<div class="grid grid-cols-2 items-center w-screen h-screen">
+  <section class="grid items-center px-40">
+    <h1 class="text-6xl mb-2">Sign Up</h1>
+    {% if request.user.is_authenticated %}
+    {% else %}
+    <h1 class="text-2xl my-4" style="font-family: 'Lobster', serif"> OR</h1>
+    <div class="flex items-center">
+      <h1 class="text-2xl">Log in to your existing account</h1>
+      <button class="border-yellow-900 hover:bg-yellow-900/20 font-semibold border-2 ml-8 px-4 py-2">
+        <a href="/login/">Log In</a>
+      </button>
+    </div>
+    {% endif %}
+  </section>
+  <form method="POST" class="grid gap-2 border-l-2 border-yellow-900 pl-16 pr-40">
+    {% csrf_token %}
+    {% include "messages.html"%}
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" name="email" required class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">username</label>
+      <input type="text" name="username" required class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" name="password" required password class="form-control" id="exampleInputPassword1">
+    </div>
+    <button type="submit" class="text-white bg-yellow-900/50 hover:bg-yellow-900 text-lg mt-4 px-4 py-2">Submit</button>
+
+  </form>
+</div>
+{% endblock %}
