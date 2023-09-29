@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block start %}
+<div class="container mt-5 pt-5 col-6">
+    <form method="POST">
+        {% csrf_token %}
+        {% include "messages.html"%}
+        {% if request.user.is_authenticated %}
+      <h5>You are logged in as {{request.user.username}}
+        <!-- <div class="btn btn-success"> 
+            <a href="/login/" style="color: aliceblue; text-decoration: none;">Switch Account</a>
+        </div> -->
+      </h5>
+        {% endif %}
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Username</label>
+          <input type="text" name="username" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" name="password" required password class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <!-- <h5> Create a new Account 
+          <div class="btn btn-success"> 
+            <a href="/register/" style="color: aliceblue; text-decoration: none;">Sign up</a>
+          </div>
+        </h5> -->
+
+      {% if request.user.is_authenticated %}
+      {% else %}
+      <h5> Don't have an Account 
+        <div class="btn btn-success"> 
+          <a href="/register/" style="color: aliceblue; text-decoration: none;">Sign up</a>
+        </div>
+      </h5>
+      
+      {% endif %}
+      </form>
+</div>
+{% endblock %}

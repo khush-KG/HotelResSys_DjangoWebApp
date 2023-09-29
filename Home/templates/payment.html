@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horizon Payment Gateway</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-P7VuDyN70vP8VxW6oZU6hho9SvKg5ra5UwDpUaJhR4Kv4MNFmzIjA+wR/GXirrByrWXcrrlGq3jH2VTdooz/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px #ddd;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .form-group label {
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background-color: #2a9df4;
+            border-color: #2a9df4;
+        }
+
+        .btn-primary:hover {
+            background-color: #2188d8;
+            border-color: #2188d8;
+        }
+
+        .btn-primary:active {
+            background-color: #1b6eab;
+            border-color: #1b6eab;
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.7;
+        }
+
+        .loading-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            color: #2a9df4;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Horizon Payment Gateway</h1>
+        <hr>
+        <form id="payment-form" action="/home-detail/<uid>/">
+            <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number">
+            </div>
+            <div class="form-group">
+                <label for="nameOnCard">Name on Card:</label>
+                <input type="text" class="form-control" id="nameOnCard" placeholder="Enter name on card">
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" class="form-control" id="expiryDate" placeholder="Enter expiry date (MM/YY)">
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="text" class="form" />
+            </div>
+            <div class="form-group" style="margin: 10px auto; text-align: center;">
+                <input type="submit" class="form" value="Pay"/>
+            </div>
+        </form>
+    </div>
+</body>
+    
+
+</html>
