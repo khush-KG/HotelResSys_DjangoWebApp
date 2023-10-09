@@ -24,6 +24,14 @@
                 <h1>Lotus Delights</h1>
                 <span class=""> Welcome to Lotus Delights! We're excited to offer you a hassle-free hotel reservation system for our own luxurious hotels. Book your stay with ease and enjoy a memorable experience with us. Explore our collection of premium hotels and make your reservations online today. We look forward to serving you!
                 </span>
+                {% if request.user.is_authenticated %}
+                {% if request.user.username == "admin" %}
+                <div class="col-md-4"> 
+                    <button style="margin-top: 30px;" type="submit" class="btn btn-success">
+                        <a href="/checkUsers/" style="color: white; text-decoration: none;">Checkout users</a> </button>
+                </div>
+                {% endif %}
+                {% endif %}
             </div>
            
         </div>
@@ -61,6 +69,7 @@
                                 </div>
                             </div>
                         </form>
+                        
                     </div>
 
                 </div>
@@ -101,10 +110,9 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
-                     
-                            <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
-                        </div>
+                    <div class="col-md-4"> 
+                        <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
+                    </div>
                 </div>
                 </form>
                 

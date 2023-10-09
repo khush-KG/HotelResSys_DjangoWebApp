@@ -29,6 +29,11 @@
         </h5> -->
 
       {% if request.user.is_authenticated %}
+      <h5> Create new Account 
+        <div class="btn btn-success"> 
+          <a href="/register/" style="color: aliceblue; text-decoration: none;">Sign up</a>
+        </div>
+      </h5>
       {% else %}
       <h5> Don't have an Account 
         <div class="btn btn-success"> 

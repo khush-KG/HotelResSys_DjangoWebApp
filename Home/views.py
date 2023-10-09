@@ -9,6 +9,7 @@ from django.core.mail import send_mail
 from Lotus_Delights_Hotels_and_Dinings.settings import EMAIL_HOST_USER
 import pandas as pd
 from django.db.models import Count
+import re
 
 # Create your views here.
 
@@ -179,6 +180,11 @@ def register_page(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
 
+        # Check password complexity
+        if not is_valid_password(password):
+            messages.warning(request, 'Invalid password. Please use a password with minimum 8 characters, at least 1 uppercase letter, 1 number, and 1 special character.')
+            return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
         user_obj = User.objects.filter(email=email)
         if user_obj.exists():
             messages.warning(request, 'User already exists with this email.')
@@ -187,7 +193,7 @@ def register_page(request):
             user_obj = User.objects.filter(username=username)
             if user_obj.exists():
                 messages.warning(
-                    request, 'User already exists with this username.')
+                    request, 'Username not available')
                 return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
             else:
                 user = User.objects.create(email=email, username=username)
@@ -221,3 +227,16 @@ def booking_mail(user, hotel, checkin, checkout, booking_id):
     recipient_list = [user.email]
     send_mail(subject, message, from_email,
               recipient_list, fail_silently=False)
+    
+
+def checkUsers(request):
+    userObjs = User.objects.all()
+    context = {
+        "userObjs" : userObjs
+    }
+    return render(request, "userRec.html", context)
+
+def is_valid_password(password):
+    # Minimum 8 characters, at least 1 uppercase letter, 1 number, and 1 special character
+    pattern = re.compile(r'^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$')
+    return bool(pattern.match(password))
