@@ -1,0 +1,2018 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$GEIjAP6YErBQFIb3ZfZA4q$3SOxHqtEUTv49LlGclKwKopBdYt9bg1qvzvWDB8Rrzk=",
+        "last_login": "2023-10-09T07:16:59.596Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "kgtaraori@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-02-28T21:43:05.983Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$RnqE9n7gui4jbMVRMk3wlf$HrFEIjoI//klKrv/aTZP4di6nGTfIr1F7vO48Hhk3wo=",
+        "last_login": "2023-03-24T04:28:27.005Z",
+        "is_superuser": false,
+        "username": "sabhya",
+        "first_name": "",
+        "last_name": "",
+        "email": "sabhyaj03@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-24T04:28:26.044Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$Y7SkVPxMIs2GVH8rp3Lhew$FodTlt+rj0sVga2DgGSO9HYzr/o58dOl1ONlfv2QPOg=",
+        "last_login": "2023-03-25T10:10:00.128Z",
+        "is_superuser": false,
+        "username": "Gouri",
+        "first_name": "",
+        "last_name": "",
+        "email": "gourib101@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-25T10:09:59.165Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$eijXyv45ms7jPCKnh16EkR$bbipAaMFQMLJF5vlkBSkBgYt48leOaZGThoG3CMDGyA=",
+        "last_login": "2023-03-25T18:33:28Z",
+        "is_superuser": false,
+        "username": "YashSaini",
+        "first_name": "",
+        "last_name": "",
+        "email": "yashsaini590@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-25T18:33:27Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$4G62IZ6hXY8jBeQuVJwZMv$vU9BQat4E4YUWakyoeK++BJzPzoP1pbzStpcmK37tdE=",
+        "last_login": "2023-03-27T05:26:08.629Z",
+        "is_superuser": false,
+        "username": "kushagra",
+        "first_name": "",
+        "last_name": "",
+        "email": "kug2121093@sicsr.ac.in",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-27T05:26:07.934Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$qE1PTGFhUBgWZFugifr5Qn$Yl+VohAzyDL/qj5KJkHWUMilVzbmrzM4q4fwh5XNZiI=",
+        "last_login": "2023-09-21T19:48:28.539Z",
+        "is_superuser": false,
+        "username": "Kush",
+        "first_name": "",
+        "last_name": "",
+        "email": "kgknl2020@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-21T19:39:20.081Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3bi4ti3qy98rghz78zeirw5dzqqjpfem",
+    "fields": {
+        "session_data": ".eJxVjEsOAiEQBe_C2hA-IuDSvWcg3XQjowaSYWZlvLtOMgvdvqp6L5FgXWpaB89pInEWWhx-N4T84LYBukO7dZl7W-YJ5abInQ557cTPy-7-HVQY9Vsr8h7Q2JNSGdmo7ChC1LmQcuT5GAoHbawr2UBgJgTQbLzV0RLEgOL9AfkbOLI:1qjOwM:mXT9xW_vxks7LUEMacaFAf6v-j5O6q7Teep-fFkz6NA",
+        "expire_date": "2023-10-05T19:02:18.627Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "42ko0qaucfy180h7t02qbv9bdygb5ttl",
+    "fields": {
+        "session_data": ".eJxVjEsOAiEQBe_C2hA-IuDSvWcg3XQjowaSYWZlvLtOMgvdvqp6L5FgXWpaB89pInEWWhx-N4T84LYBukO7dZl7W-YJ5abInQ557cTPy-7-HVQY9Vsr8h7Q2JNSGdmo7ChC1LmQcuT5GAoHbawr2UBgJgTQbLzV0RLEgOL9AfkbOLI:1pa35y:FkXMuSN6OeGkgcM1r86dSn7g2e0M1P4INXRrcSeObGo",
+        "expire_date": "2023-03-22T23:21:18.482Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "brc2pb4orusxzmbkembmvdutewi17kdq",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBhoJS6dO8ZCAODVA0kpV0Z765NutDtf-_9l_BhW4vfOi9-TuIsjDj9bhTig-sO0j3UW5Ox1XWZSe6KPGiX15b4eTncv4MSevnW1iG6BKys0wgExuWMSNpFGi0ATTAwoSLSymjtFJIac042RztMkFi8P7mUNzE:1pf4Tu:1P9IFzRWocyEt0oAl3RrJGAICe8vBJDGn1kNFPiy4x0",
+        "expire_date": "2023-04-05T19:50:46.371Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "c2b1l1snotf5kq3a4xp7ie933lgvdhky",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGllrO7ZjSvqcwdr1rkkAJVI-FeLuJFIKKGfem3mrjNva522ROQ-srspYdfktCctTxoPwA8f7pMs0rvNA-lD0SRfdTSyv2-n-HfS49PsanEQnwVEFask20kLrvWeuYFNjAmItSUrAwDUBuD26yDFFqkbIovp8AQ8sOMI:1pgfWz:DMkEz6JGy5RlMdYmwz8xMQzDC7uUd8SP-Wn2_Ipong0",
+        "expire_date": "2023-04-10T05:36:33.427Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cx0g361thopm52e2i62xdxgb503v6vf6",
+    "fields": {
+        "session_data": ".eJxVjEsOAiEQBe_C2hA-IuDSvWcg3XQjowaSYWZlvLtOMgvdvqp6L5FgXWpaB89pInEWWhx-N4T84LYBukO7dZl7W-YJ5abInQ557cTPy-7-HVQY9Vsr8h7Q2JNSGdmo7ChC1LmQcuT5GAoHbawr2UBgJgTQbLzV0RLEgOL9AfkbOLI:1qj8lW:cnTomQPHRfZbOGP-oWOqNeN3B-_sjFO0JahAkWKx7Os",
+        "expire_date": "2023-10-05T01:46:02.541Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "i7qaxbo0yi9jbfrvkufz69sfw68g0c5v",
+    "fields": {
+        "session_data": ".eJxVjEsOAiEQBe_C2hA-IuDSvWcg3XQjowaSYWZlvLtOMgvdvqp6L5FgXWpaB89pInEWWhx-N4T84LYBukO7dZl7W-YJ5abInQ557cTPy-7-HVQY9Vsr8h7Q2JNSGdmo7ChC1LmQcuT5GAoHbawr2UBgJgTQbLzV0RLEgOL9AfkbOLI:1pcgOt:z_4JNMPFvi-MA7tZHKGPc8WTe09lZzioPC_wjg24Vz4",
+        "expire_date": "2023-03-30T05:43:43.791Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ljmpzklu0x2waumzdk1l9wg3nndcots1",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyFA2VI8eu83kAUWqRpISnsy_rs06UGvM_Pemznct-z2RqtbIrsyadjlF3oMTyqHiQ8s98pDLdu6eH4k_LSNzzXS63a2fwcZW-7r0apEAEGrEdDGADqapEgnHzBoC0oaHEjoyRqCNIDSMCWDQvZSdMw-XwplN4Y:1pgfMu:cQ2EpontDj9Zh0tXGCTsaX9Uthm-InZWpcrOEQZKQqI",
+        "expire_date": "2023-04-10T05:26:08.653Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r4q9416s977h0iy6xec1rbli0782rmyr",
+    "fields": {
+        "session_data": ".eJxVjDEOwyAQBP9CHSEBPgwp0-cNCO6O4CQCydiVlb_HllwkxTY7s7uJENelhLXzHCYSV2HE5bdLEV9cD0DPWB9NYqvLPCV5KPKkXd4b8ft2un8HJfayr7Uip82AkSwYzJAcMymPCIMnbVQG60enCMDnPaOGgdjmaEGBZrbi8wXgPDeU:1peyEM:QAX4U4qPo5WbFx82wMiWhVse2EbtxdYJex8EqdUYQYM",
+        "expire_date": "2023-04-05T13:10:18.705Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "syycjmsaua2crohk8lambv21v1535z1x",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFAuyAevfsNZHcBqRqalPZk_Hdp0oPeJvPezFsE3NYStpaWMEVxEVqcfjtCfqa6g_jAep8lz3VdJpK7Ig_a5G2O6XU93L-Dgq30dVYuobNGaSBWXinOPIIdmDKMcKbsPHnFXbFA2sUhgiaOyNmYHlF8vuTsOE4:1qpkVf:RxkmbuhzBsepI2eiUCdUDkrCDSGjIn6u_YumOr10O0I",
+        "expire_date": "2023-10-23T07:16:59.606Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vlpeo6jilqyr7gnpwodmowbiq3bm20yx",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGllrO7ZjSvqcwdr1rkkAJVI-FeLuJFIKKGfem3mrjNva522ROQ-srspYdfktCctTxoPwA8f7pMs0rvNA-lD0SRfdTSyv2-n-HfS49PsanEQnwVEFask20kLrvWeuYFNjAmItSUrAwDUBuD26yDFFqkbIovp8AQ8sOMI:1pgdZP:Zp2lT2IWjmEi3YHD1rtn_tU8gaG-45SKiVsqD9lhX28",
+        "expire_date": "2023-04-10T03:30:55.142Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ybhkoyiq3j9kq6pwe5so4y3xmrxc8pl8",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pABphVcuu8ZyDBDpWpoUtqV8e7apAvd_vfef6lI21ri1vISJ1EXZbw6_Y6J-JHrTuRO9TZrnuu6TEnvij5o08Ms-Xk93L-DQq18a7BjZgwZLHoJ1pC33IGVZE3P0EEYHSA69OjYiwjks4OUqGeG4MCo9wfvGDdV:1qjPf2:CkLD0HhF-1TMEDQZOpnL8alBqDzS10z1WORhJlQM-qY",
+        "expire_date": "2023-10-05T19:48:28.545Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zx5dcnmsmmhmosg9to1eb6idz9wc6wpu",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFAuyAevfsNZHcBqRqalPZk_Hdp0oPeJvPezFsE3NYStpaWMEVxEVqcfjtCfqa6g_jAep8lz3VdJpK7Ig_a5G2O6XU93L-Dgq30dVYuobNGaSBWXinOPIIdmDKMcKbsPHnFXbFA2sUhgiaOyNmYHlF8vuTsOE4:1qpjox:7wMP564leAczU-xr1xJ-BDruxiPmRqXDEazIVJg5uDg",
+        "expire_date": "2023-10-23T06:32:51.679Z"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "1ec6881b-5b72-448f-89a2-6f626725dad6",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Sunset View"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "212743be-5941-467d-bd05-539119553e59",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Breakfast"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Balcony"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Swimming pool"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Luxury rooms"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Dinner"
+    }
+},
+{
+    "model": "Home.amenities",
+    "pk": "f3e55f64-21b8-406f-9041-fd2e2b069f46",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "amenity_name": "Waterpark"
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "0b10e792-c0da-4ea5-8807-7c30b4fcbddb",
+    "fields": {
+        "created_at": "2023-03-23",
+        "updated_at": "2023-03-23",
+        "Hotel_Name": "The Sapphire Springs",
+        "Hotel_Price": 7800,
+        "Hotel_Desc": "Immerse yourself in a world of natural beauty and luxury at The Sapphire Springs. This hotel is designed to harmonize with its surroundings, with its natural decor and breathtaking views. The spacious rooms and suites are elegantly appointed, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's gourmet restaurant, which offers a range of delicious options to suit all tastes. The Sapphire Springs is the perfect place to escape and connect with nature while enjoying the ultimate in luxury.",
+        "room_count": 16,
+        "location": "Chandigarh",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "16d455d7-2b22-49c7-b2c7-57440ca79c84",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "Hotel_Name": "The Grand Gaia",
+        "Hotel_Price": 17100,
+        "Hotel_Desc": "Enter a world of grandeur and elegance at The Grand Gaia. This hotel is designed to impress, with its stately decor and exceptional service. The spacious rooms and suites are elegantly appointed, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's gourmet restaurant, which offers a range of delicious options to suit all tastes. The Grand Gaia is the perfect place to experience the grandest luxury and indulge in the most indulgent experience possible.",
+        "room_count": 30,
+        "location": "Karnal",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+            "f3e55f64-21b8-406f-9041-fd2e2b069f46"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "245f6258-bcff-4f17-aacb-bb54e9de4f62",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "Hotel_Name": "The Diamond Palace",
+        "Hotel_Price": 19300,
+        "Hotel_Desc": "Experience the ultimate in indulgence and opulence at The Diamond Palace. This hotel is designed to sparkle, with its glittering decor and exceptional service. The spacious rooms and suites are elegantly appointed, while the on-site spa and wellness center offer a range of treatments to help you relax and rejuvenate. Dine in style at the hotel's gourmet restaurant, which offers a range of delicious options to suit all tastes. The Diamond Palace is the perfect place to feel like a true VIP and indulge in the most luxurious experience possible.",
+        "room_count": 10,
+        "location": "Jodhpur",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "2994b683-d26d-4297-b25c-ec88e11454d2",
+    "fields": {
+        "created_at": "2023-03-23",
+        "updated_at": "2023-03-23",
+        "Hotel_Name": "The Royal Retreat",
+        "Hotel_Price": 15600,
+        "Hotel_Desc": "Experience the ultimate in luxury and elegance at The Royal Retreat. This hotel is fit for royalty, with its regal decor, impeccable service, and attention to detail. From the spacious rooms and suites to the gourmet dining options, every detail has been carefully crafted to provide the most indulgent experience possible. Relax by the pool, take a stroll through the manicured gardens, or indulge in a spa treatment at the onsite wellness center. The Royal Retreat is the perfect place to escape and live like a king or queen.",
+        "room_count": 12,
+        "location": "Udaipur",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+            "f3e55f64-21b8-406f-9041-fd2e2b069f46"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "3ff7d668-67da-4868-8a4a-a0ac6489a960",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "Hotel_Name": "The Rosetta",
+        "Hotel_Price": 4500,
+        "Hotel_Desc": "Welcome to The Rosetta, an oasis of comfort and luxury in the heart of Chennai. Our hotel offers a perfect blend of convenience, comfort, and breathtaking sunset views, making it the ideal choice for your stay in the city.\r\n\r\nOur spacious and well-appointed luxury rooms are designed to provide you with the ultimate comfort during your stay. Each room features a private balcony, where you can take in the stunning sunset views and relax after a long day exploring the city.\r\n\r\nAt Hotel Rose, we understand the importance of a good meal. Our dinner service is sure to impress, with our skilled chefs preparing delectable meals using only the freshest ingredients. Wake up to a delicious breakfast spread that will energize you for the day ahead.\r\n\r\nTake in the breathtaking sunset views from our hotel, and unwind after a long day in the city. With our comfortable rooms and exceptional service, you'll be able to relax and rejuvenate in style.\r\n\r\nExperience the perfect blend of luxury, comfort, and convenience at Rosetta Palace in Chennai. Whether you're visiting for business or pleasure, our hotel has everything you need to make your stay unforgettable.\r\n\r\nBook your room at The Rosetta today and indulge in the best of Chennai's hospitality.",
+        "room_count": 32,
+        "location": "Chennai",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "42b0e084-4f5c-442d-828d-f4421a44859a",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "Hotel_Name": "The Horizon",
+        "Hotel_Price": 3500,
+        "Hotel_Desc": "Welcome to The Horizon, a luxurious and elegant hotel located in the heart of Kolkata. Our hotel offers a perfect blend of comfort, convenience, and breathtaking sunset views, making it the ideal choice for your stay in the city.\r\n\r\nOur spacious and well-appointed luxury rooms are designed to provide you with the ultimate comfort during your stay. Each room is equipped with all the modern amenities you could desire, ensuring a relaxing and memorable experience.\r\n\r\nAt Hotel Maria, we understand the importance of a good meal. Our dinner service is sure to impress, with our skilled chefs preparing delectable meals using only the freshest ingredients. Wake up to a delicious breakfast spread that will energize you for the day ahead.\r\n\r\nTake in the breathtaking sunset views from our hotel, and unwind after a long day in the city. With our comfortable rooms and exceptional service, you'll be able to relax and rejuvenate in style.\r\n\r\nExperience the perfect blend of luxury, comfort, and convenience at Hotel Horizonin Kolkata. Whether you're visiting for business or pleasure, our hotel has everything you need to make your stay unforgettable.\r\n\r\nBook your room at The Horizon today and indulge in the best of Kolkata's hospitality.",
+        "room_count": 30,
+        "location": "Kolkata",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "Hotel_Name": "The Velvet Haven",
+        "Hotel_Price": 5000,
+        "Hotel_Desc": "Welcome to The Velvet Haven, where luxury and comfort meet in a picturesque setting. Our hotel is situated in a prime location, offering stunning sunset views and access to top-notch amenities.\r\n\r\nOur spacious and well-appointed luxury rooms offer the ultimate in comfort, complete with private balconies that provide breathtaking views of the sunset. Unwind after a long day by taking a refreshing dip in our sparkling swimming pool.\r\n\r\nAt Hotel Neptune, we understand the importance of a good meal. Our dinner service is sure to impress, with our skilled chefs preparing delectable meals using only the freshest ingredients. Wake up to a delicious breakfast spread that will fuel you for the day ahead.\r\n\r\nExperience the ultimate in relaxation and indulgence at Hotel Neptune. Take in the stunning sunset views from our balcony or lounge by the pool, soaking up the warm sun. Whether you're visiting for business or pleasure, our hotel has everything you need to make your stay unforgettable.\r\n\r\nBook your stay at The Velvet Haven today and discover the perfect blend of luxury, comfort, and convenience.",
+        "room_count": 3,
+        "location": "Mumbai",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "6c072328-fa12-44e5-ba70-ed72c078e6c1",
+    "fields": {
+        "created_at": "2023-03-23",
+        "updated_at": "2023-03-23",
+        "Hotel_Name": "The Majestic Mirage",
+        "Hotel_Price": 10000,
+        "Hotel_Desc": "Discover the magic of The Majestic Mirage, a hotel that combines luxury with natural beauty. With its stunning views of the surrounding landscape, opulent decor, and exceptional service, this hotel is sure to take your breath away. The spacious rooms and suites are designed to provide ultimate comfort, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's restaurants, which offer a range of gourmet options to suit all tastes. The Majestic Mirage is a true oasis of luxury that will leave you feeling rejuvenated and refreshed.",
+        "room_count": 20,
+        "location": "Indore",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+            "f3e55f64-21b8-406f-9041-fd2e2b069f46"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "96bb9bc1-a9c9-4e76-bd47-6f653fb25b3d",
+    "fields": {
+        "created_at": "2023-03-23",
+        "updated_at": "2023-03-23",
+        "Hotel_Name": "The Opulent Oasis",
+        "Hotel_Price": 12500,
+        "Hotel_Desc": "Escape to a world of luxurious tranquility at The Opulent Oasis. This hotel offers a peaceful retreat from the hustle and bustle of everyday life, with its lush gardens, serene pools, and elegant decor. The spacious rooms and suites are designed to provide ultimate comfort, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's restaurants, which offer a range of gourmet options to suit all tastes. The Opulent Oasis is the perfect place to unwind and recharge.",
+        "room_count": 16,
+        "location": "Maldives",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+            "f3e55f64-21b8-406f-9041-fd2e2b069f46"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "Hotel_Name": "The Azure Palace",
+        "Hotel_Price": 4000,
+        "Hotel_Desc": "Indulge in the luxurious comfort and elegance of Hotel Saturn. Located in the heart of the city, our hotel boasts top-notch amenities to make your stay unforgettable.\r\nOur spacious and well-appointed luxury rooms offer a relaxing atmosphere, complete with all the modern amenities you could desire. Unwind on your own private balcony, taking in the stunning city views while sipping a refreshing drink.\r\nAt Hotel Saturn, we understand the importance of a good meal, and our dinner service is second to none. Savor a delicious meal prepared by our skilled chefs, using only the freshest ingredients.\r\nWake up to a delicious breakfast spread that will energize you for the day ahead. With a variety of options to choose from, you're sure to find something to suit your taste buds.\r\nWhether you're visiting for business or pleasure, Hotel Saturn is the perfect choice for your stay. Book your room today and experience the best in luxury accommodations and exceptional service.",
+        "room_count": 18,
+        "location": "New Delhi",
+        "amenities": [
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "b9ea3a6c-e446-44a5-983d-ca65a2d32ca0",
+    "fields": {
+        "created_at": "2023-03-23",
+        "updated_at": "2023-03-23",
+        "Hotel_Name": "The Golden Crown",
+        "Hotel_Price": 18000,
+        "Hotel_Desc": "Indulge in the ultimate luxury at The Golden Crown. This hotel is designed to provide a regal experience, with its opulent decor, exceptional service, and luxurious amenities. The spacious rooms and suites are elegantly appointed, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's gourmet restaurant, which offers a range of delicious options to suit all tastes. The Golden Crown is the perfect place to feel like royalty and indulge in the finer things in life.",
+        "room_count": 1,
+        "location": "Darjeeling",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+            "f3e55f64-21b8-406f-9041-fd2e2b069f46"
+        ]
+    }
+},
+{
+    "model": "Home.hotel",
+    "pk": "f876bde2-5cfe-4f52-8f5d-59dc0f5f12c9",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "Hotel_Name": "The Plush Pearl",
+        "Hotel_Price": 13800,
+        "Hotel_Desc": "Luxuriate in the soft, sumptuous surroundings of The Plush Pearl. This hotel is designed to provide the ultimate in comfort and indulgence, with its plush furnishings and elegant decor. The spacious rooms and suites are designed to provide ultimate comfort, while the on-site spa and wellness center offer a range of treatments to help you unwind. Dine in style at the hotel's gourmet restaurant, which offers a range of delicious options to suit your taste buds.",
+        "room_count": 28,
+        "location": "Kashmir",
+        "amenities": [
+            "1ec6881b-5b72-448f-89a2-6f626725dad6",
+            "212743be-5941-467d-bd05-539119553e59",
+            "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+            "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+            "700c3bfc-26fc-44eb-82e6-25477cf9b1da"
+        ]
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "02942021-02dd-4362-9644-0b3b218d8583",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "96bb9bc1-a9c9-4e76-bd47-6f653fb25b3d",
+        "images": "hotels/9_5gSFCLp.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "23055502-3783-4162-b786-17fd4bdf88ce",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "2994b683-d26d-4297-b25c-ec88e11454d2",
+        "images": "hotels/18_O6yWmRb.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "2c9ffa04-a3cc-477c-bba2-70006bd919f3",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "3ff7d668-67da-4868-8a4a-a0ac6489a960",
+        "images": "hotels/4.jpeg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "58c59831-8b56-4efc-9cf1-45b736799806",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "images": "hotels/1.jpeg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "621a8d94-8fff-4a77-b1b0-8d60ce748f43",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "b9ea3a6c-e446-44a5-983d-ca65a2d32ca0",
+        "images": "hotels/14_8njNim4.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "81dd47f7-38c5-40e8-ad01-03df645ceef1",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "16d455d7-2b22-49c7-b2c7-57440ca79c84",
+        "images": "hotels/16_WqDlfEJ.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "a34cc313-e011-4e4e-8187-81dfccf0de97",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "f876bde2-5cfe-4f52-8f5d-59dc0f5f12c9",
+        "images": "hotels/17_ZjAkhTj.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "b7fe035b-187c-47cb-ba5d-b63b41486612",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "images": "hotels/6.jpeg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "d562e842-658c-412c-8543-6918bcd4a3c8",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "images": "hotels/8.webp"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "d7babf09-2a59-494d-b1e4-fa00d411262f",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "images": "hotels/2.webp"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "d8126bc4-06a8-4309-bb2e-122f8259eaed",
+    "fields": {
+        "created_at": "2023-03-09",
+        "updated_at": "2023-03-09",
+        "hotel": "42b0e084-4f5c-442d-828d-f4421a44859a",
+        "images": "hotels/5.jpeg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "d9a10ad8-a074-4442-847f-76f9bd793366",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "245f6258-bcff-4f17-aacb-bb54e9de4f62",
+        "images": "hotels/20_1nZHnwF.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "eb660f6b-70a6-46a2-8b34-7fc51ee4a992",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "0b10e792-c0da-4ea5-8807-7c30b4fcbddb",
+        "images": "hotels/11_AqLhHoE.jpg"
+    }
+},
+{
+    "model": "Home.hotelimages",
+    "pk": "f512d836-75c1-4632-958a-1f0639dc36f3",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "6c072328-fa12-44e5-ba70-ed72c078e6c1",
+        "images": "hotels/10_6L3albj.jpg"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "004f0d43-a59c-401c-9ba3-c68ec617084d",
+    "fields": {
+        "created_at": "2023-03-27",
+        "updated_at": "2023-03-27",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-03-28",
+        "end_date": "2023-03-31",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "0d7b9561-6baf-47f9-b697-a4c36a63e5a7",
+    "fields": {
+        "created_at": "2023-03-26",
+        "updated_at": "2023-03-26",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "YashSaini"
+        ],
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-31",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "1e0bb1fa-0423-4690-acb0-16ee2e23d454",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-24",
+        "end_date": "2023-09-25",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "1e352290-77e7-4797-b11c-bb57c2e5f7b4",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-03-25",
+        "end_date": "2023-03-29",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "2120f233-ed92-4437-9c10-20ee90b649cf",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-03-25",
+        "end_date": "2023-03-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "4054e646-941f-4d59-b8d1-085ea2da1cc4",
+    "fields": {
+        "created_at": "2023-03-27",
+        "updated_at": "2023-03-27",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "kushagra"
+        ],
+        "start_date": "2023-03-28",
+        "end_date": "2023-03-29",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "5240230e-e7d8-48de-996a-ddd56bb42388",
+    "fields": {
+        "created_at": "2023-03-25",
+        "updated_at": "2023-03-25",
+        "hotel": "6c072328-fa12-44e5-ba70-ed72c078e6c1",
+        "user": [
+            "Gouri"
+        ],
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-29",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "61a3658b-fb82-4509-8f82-b7cf3ced44ef",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-09-25",
+        "end_date": "2023-09-27",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "69d30a0a-a627-4c05-bd7f-11592eeab166",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-09-23",
+        "end_date": "2023-09-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "6c2a81cb-b9d2-460f-84a6-3b714572a9af",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-25",
+        "end_date": "2023-09-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "8dcd3d4a-8ed6-4e86-a5d3-57b0d178bd36",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "user": [
+            "sabhya"
+        ],
+        "start_date": "2023-03-25",
+        "end_date": "2023-03-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "9c586082-4185-4ab6-9840-fdc4fc0151ba",
+    "fields": {
+        "created_at": "2023-03-27",
+        "updated_at": "2023-03-27",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "kushagra"
+        ],
+        "start_date": "2023-03-28",
+        "end_date": "2023-03-29",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "a3152fc5-136b-4acf-9282-01a6b6fb4b14",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-22",
+        "end_date": "2023-09-27",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "bd4b63df-3b65-4a39-ba78-287663ca7777",
+    "fields": {
+        "created_at": "2023-03-27",
+        "updated_at": "2023-03-27",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "kushagra"
+        ],
+        "start_date": "2023-03-28",
+        "end_date": "2023-03-28",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "c1f5e0f6-beab-4216-b8e5-9dbd198d6e8a",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-23",
+        "end_date": "2023-09-25",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "c8fe0201-e71b-4bb2-8f7e-16b6e1fd0707",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-23",
+        "end_date": "2023-09-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "cd61545b-fbd1-415e-965a-1d3f7d566d32",
+    "fields": {
+        "created_at": "2023-09-22",
+        "updated_at": "2023-09-22",
+        "hotel": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "user": [
+            "Kush"
+        ],
+        "start_date": "2023-09-23",
+        "end_date": "2023-09-26",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "Home.hotelbooking",
+    "pk": "ce3a35c1-947b-48ec-bb15-48ec1f597ef7",
+    "fields": {
+        "created_at": "2023-03-24",
+        "updated_at": "2023-03-24",
+        "hotel": "2994b683-d26d-4297-b25c-ec88e11454d2",
+        "user": [
+            "admin"
+        ],
+        "start_date": "2023-03-25",
+        "end_date": "2023-03-30",
+        "booking_type": "Pre-Paid"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-03-08T23:22:31.589Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "abc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-03-09T05:21:39.251Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "f3e55f64-21b8-406f-9041-fd2e2b069f46",
+        "object_repr": "Waterpark",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-03-09T05:21:48.620Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "700c3bfc-26fc-44eb-82e6-25477cf9b1da",
+        "object_repr": "Dinner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-03-09T05:22:04.848Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "2cc355c4-3078-446d-8b6f-10a4bbd84c0d",
+        "object_repr": "Balcony",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-03-09T05:22:25.622Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "1ec6881b-5b72-448f-89a2-6f626725dad6",
+        "object_repr": "Sunset View",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-03-09T05:22:38.741Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "5afb51eb-a18a-4cb4-a78b-a8149fdfe480",
+        "object_repr": "Swimming pool",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-03-09T05:22:50.461Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "6a46d2b6-105d-4eb2-915c-69893fc88aab",
+        "object_repr": "Luxury rooms",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-03-09T05:23:03.515Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "amenities"
+        ],
+        "object_id": "212743be-5941-467d-bd05-539119553e59",
+        "object_repr": "Breakfast",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-03-09T05:26:35.788Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "object_repr": "Hotel Villa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-03-09T05:27:29.748Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "object_repr": "Hotel Dream",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-03-09T05:29:01.030Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "3ff7d668-67da-4868-8a4a-a0ac6489a960",
+        "object_repr": "Hotel Rose",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-03-09T05:29:55.566Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "42b0e084-4f5c-442d-828d-f4421a44859a",
+        "object_repr": "Hotel Maria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-03-09T05:31:31.132Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "42b0e084-4f5c-442d-828d-f4421a44859a",
+        "object_repr": "Hotel Maria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Amenities\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-03-09T06:25:21.912Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "58c59831-8b56-4efc-9cf1-45b736799806",
+        "object_repr": "HotelImages object (58c59831-8b56-4efc-9cf1-45b736799806)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-03-09T06:26:07.848Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "d7babf09-2a59-494d-b1e4-fa00d411262f",
+        "object_repr": "HotelImages object (d7babf09-2a59-494d-b1e4-fa00d411262f)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-03-09T06:26:37.527Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "2c9ffa04-a3cc-477c-bba2-70006bd919f3",
+        "object_repr": "HotelImages object (2c9ffa04-a3cc-477c-bba2-70006bd919f3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-03-09T06:26:53.446Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "d8126bc4-06a8-4309-bb2e-122f8259eaed",
+        "object_repr": "HotelImages object (d8126bc4-06a8-4309-bb2e-122f8259eaed)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-03-09T06:27:37.325Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "b7fe035b-187c-47cb-ba5d-b63b41486612",
+        "object_repr": "HotelImages object (b7fe035b-187c-47cb-ba5d-b63b41486612)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-03-09T06:27:53.303Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "d562e842-658c-412c-8543-6918bcd4a3c8",
+        "object_repr": "HotelImages object (d562e842-658c-412c-8543-6918bcd4a3c8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-03-23T04:36:22.308Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "object_repr": "Hotel Saturn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\", \"Hotel Desc\", \"Room count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-03-23T04:38:45.981Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "object_repr": "Hotel Neptune",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\", \"Hotel Desc\", \"Room count\", \"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-03-23T04:38:58.890Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "object_repr": "Hotel Saturn",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-03-23T04:42:10.011Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "42b0e084-4f5c-442d-828d-f4421a44859a",
+        "object_repr": "Hotel Maria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Desc\", \"Room count\", \"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-03-23T04:45:56.101Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "3ff7d668-67da-4868-8a4a-a0ac6489a960",
+        "object_repr": "Hotel Rose",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Desc\", \"Room count\", \"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-03-23T04:55:04.377Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "96bb9bc1-a9c9-4e76-bd47-6f653fb25b3d",
+        "object_repr": "The Opulent Oasis",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-03-23T04:56:48.233Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "6c072328-fa12-44e5-ba70-ed72c078e6c1",
+        "object_repr": "The Majestic Mirage",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-03-23T04:59:05.514Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "2994b683-d26d-4297-b25c-ec88e11454d2",
+        "object_repr": "The Royal Retreat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-03-23T05:01:08.621Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "b9ea3a6c-e446-44a5-983d-ca65a2d32ca0",
+        "object_repr": "The Golden Crown",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-03-23T05:02:38.056Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "0b10e792-c0da-4ea5-8807-7c30b4fcbddb",
+        "object_repr": "The Sapphire Springs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-03-23T05:03:05.383Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "9eb9320e-0053-45e0-ab74-b2e451848b00",
+        "object_repr": "The Azure Palace",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-03-23T05:05:35.786Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "object_repr": "The Velvet Haven",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\", \"Hotel Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-03-23T05:05:40.564Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "object_repr": "The Velvet Haven",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-03-23T09:10:42.940Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "abcd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-03-23T10:04:44.216Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "asd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-03-23T20:44:53.488Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelbooking"
+        ],
+        "object_id": "9683a79c-aa34-430c-97e7-58895be7c9b1",
+        "object_repr": "HotelBooking object (9683a79c-aa34-430c-97e7-58895be7c9b1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-03-23T22:15:31.184Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelbooking"
+        ],
+        "object_id": "7fd40a01-389e-4dae-a065-d9accb010ea6",
+        "object_repr": "HotelBooking object (7fd40a01-389e-4dae-a065-d9accb010ea6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-03-23T22:20:59.300Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "kushagra",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-03-23T22:35:47.076Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "Kushagra",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-03-23T22:41:44.308Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "kush",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-03-23T22:48:48.435Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "abc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-03-23T22:48:48.442Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "asd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-03-23T22:48:48.446Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "qwerty",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-03-23T22:48:48.450Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "zxc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-03-24T02:05:35.564Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "b9ea3a6c-e446-44a5-983d-ca65a2d32ca0",
+        "object_repr": "The Golden Crown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Room count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-03-24T05:03:19.416Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "02942021-02dd-4362-9644-0b3b218d8583",
+        "object_repr": "HotelImages object (02942021-02dd-4362-9644-0b3b218d8583)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-03-24T05:03:54.864Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "f512d836-75c1-4632-958a-1f0639dc36f3",
+        "object_repr": "HotelImages object (f512d836-75c1-4632-958a-1f0639dc36f3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-03-24T05:04:31.698Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "23055502-3783-4162-b786-17fd4bdf88ce",
+        "object_repr": "HotelImages object (23055502-3783-4162-b786-17fd4bdf88ce)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-03-24T05:04:56.829Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "621a8d94-8fff-4a77-b1b0-8d60ce748f43",
+        "object_repr": "HotelImages object (621a8d94-8fff-4a77-b1b0-8d60ce748f43)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-03-24T05:05:14.181Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "eb660f6b-70a6-46a2-8b34-7fc51ee4a992",
+        "object_repr": "HotelImages object (eb660f6b-70a6-46a2-8b34-7fc51ee4a992)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-03-24T05:09:07.241Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "42b0e084-4f5c-442d-828d-f4421a44859a",
+        "object_repr": "The Horizon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\", \"Hotel Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-03-24T05:10:55.875Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "3ff7d668-67da-4868-8a4a-a0ac6489a960",
+        "object_repr": "The Rosetta",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hotel Name\", \"Hotel Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-03-24T05:13:11.440Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "f876bde2-5cfe-4f52-8f5d-59dc0f5f12c9",
+        "object_repr": "The Plush Pearl",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-03-24T05:15:16.875Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "16d455d7-2b22-49c7-b2c7-57440ca79c84",
+        "object_repr": "The Grand Gaia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-03-24T05:16:56.249Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "245f6258-bcff-4f17-aacb-bb54e9de4f62",
+        "object_repr": "The Diamond Palace",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-03-24T05:18:14.907Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "a34cc313-e011-4e4e-8187-81dfccf0de97",
+        "object_repr": "HotelImages object (a34cc313-e011-4e4e-8187-81dfccf0de97)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-03-24T05:20:07.300Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "81dd47f7-38c5-40e8-ad01-03df645ceef1",
+        "object_repr": "HotelImages object (81dd47f7-38c5-40e8-ad01-03df645ceef1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-03-24T05:21:37.626Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotelimages"
+        ],
+        "object_id": "d9a10ad8-a074-4442-847f-76f9bd793366",
+        "object_repr": "HotelImages object (d9a10ad8-a074-4442-847f-76f9bd793366)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-03-27T03:28:05.843Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "abc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-03-27T03:28:55.149Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "16",
+        "object_repr": "YashSaini",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-09-21T19:05:33.310Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "kush",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-09-21T19:07:18.118Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "Home",
+            "hotel"
+        ],
+        "object_id": "64c8b5a0-2f99-43b8-a91d-3131919619c5",
+        "object_repr": "The Velvet Haven",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Room count\"]}}]"
+    }
+}
+]
