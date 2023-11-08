@@ -115,12 +115,52 @@ def filter_listings_by_amenities(hotel_objs, amenities):
 
 
 def check_booking(start_date, end_date, uid, room_count):
-    res = HotelBooking.objects.filter(
+    # get all the bookibgs that start AND end outside the given period
+    res1 = HotelBooking.objects.filter(
         start_date__lte=start_date,
         end_date__gte=end_date,
         hotel__uid=uid
     )
-    if len(res) >= room_count:
+
+    # print("start AND end outside: ",len(res1))
+    # print(res1.values(),"\n")
+
+    # get all the bookibgs that start b/w the given period
+    res2 = HotelBooking.objects.filter(
+        start_date__gt=start_date,
+        start_date__lt=end_date,
+        hotel__uid=uid
+    )
+
+    # print("start b/w: ",len(res2))
+    # print(res2.values(),"\n")
+
+    # get all the bookibgs that end b/w the given period
+    res3 = HotelBooking.objects.filter(
+        end_date__gt=start_date,
+        end_date__lt=end_date,
+        hotel__uid=uid
+    )
+
+    # print("end b/w: ",len(res3))
+    # print(res3.values(),"\n")
+
+    # get all the bookibgs that start AND end b/w the given period
+    res4 = HotelBooking.objects.filter(
+        start_date__gt=start_date,
+        end_date__lt=end_date,
+        hotel__uid=uid
+    )
+
+    # print("start AND end b/w: ",len(res4))
+    # print(res4.values(),"\n")
+
+    total_bookings = len(res1) + len(res2) + len(res3) - len(res4)
+
+    # if len(res1) >= room_count:
+    #     return False
+
+    if total_bookings >= room_count:
         return False
 
     return True

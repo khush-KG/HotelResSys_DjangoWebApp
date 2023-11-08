@@ -1,0 +1,33 @@
+How i enabled static files iny local project and on production server (pythonanywhere)
+
+Also refer: 
+https://www.w3schools.com/django/django_add_static_files.php
+https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+A. local project
+1. create a static folder in your app directory (contains views.py)
+2. in your settings.py:
+STATIC_URL = 'static/'
+
+""" Note: Your project will probably also have static assets that aren’t tied to a particular app. In addition to using a static/ directory inside your apps, you can define a list of directories (STATICFILES_DIRS) in your settings file where Django will also look for static files. For example: ""
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+STATIC_ROOT = "Bookings/static/"
+3. Modify the template 
+	i) start with {% load static %}
+	ii) change links to : <link rel="stylesheet" href="{% static 'myfirst.css' %}">
+
+4. 
+
+
+______________________________________________________________________________________
+B. pythonanywhere:
+1. do the above first
+2. then in pyhtonanywhere, dashboard web tab
+give static url and path to static directory of your app
+url : /static/
+path: /home/LotusHotels/Cloud-Eval2/Bookings/static
+3. then save and reload 
+4. you will be able to see your css, js and images
